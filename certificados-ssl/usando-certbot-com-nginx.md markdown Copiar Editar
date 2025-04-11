@@ -1,0 +1,20 @@
+## Instalando Certbot com Nginx no Ubuntu
+
+```bash
+sudo apt update
+sudo apt install nginx
+sudo apt install certbot python3-certbot-nginx
+sudo certbot --nginx
+
+
+#### `endurecimento/checklist-hardening.md`
+
+```markdown
+## Checklist de Hardening (Endurecimento) no Linux
+
+- [x] Desabilitar root remoto no SSH
+- [x] Alterar porta padrão do SSH
+- [x] Ativar firewall UFW
+- [x] Configurar fail2ban
+- [ ] Remover pacotes desnecessários
+- [ ] Auditar permissões em arquivos sensíveis
